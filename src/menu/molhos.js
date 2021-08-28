@@ -1,6 +1,12 @@
 export const molhos = {
     1: {
-      description: '*X-EGG*\nPão, hamburguer, presunto, queijo, ovo, alface e tomate',
-      price: 13.90
+      title: "*KETCHUP HEINZ*",
+      description: 'Sachê',
+      price: 0.2
+    },
+    2: {
+      title: "*MAIONESE HEINZ*",
+      description: 'Sachê',
+      price: 0.25
     }
 }

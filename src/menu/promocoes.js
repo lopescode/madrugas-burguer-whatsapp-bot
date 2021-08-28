@@ -1,6 +1,7 @@
 export const promocoes = {
     1: {
-      description: '3 X-Tudo + Refrigerante 2l',
+      title: "PROMOÇÃO XTUDO",
+      description: '*3x X-tudo + Refrigerante 2L*',
       price: 42.90
     }
   };
