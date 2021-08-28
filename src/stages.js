@@ -1,6 +1,7 @@
 import {
     initialStage,
-    stageOne
+    stageOne,
+    stageTwo,
   } from "./stages/index.js";
   
   import { storage } from "./storage.js";
@@ -13,6 +14,10 @@ import {
     {
       descricao: "Menu",
       stage: stageOne,
+    },
+    {
+      descricao: "MenuItens",
+      stage: stageTwo,
     },
   ];
   
