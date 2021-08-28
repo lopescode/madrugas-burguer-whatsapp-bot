@@ -1,10 +1,12 @@
 {
   "name": "madrugas-burguer-whatsapp-bot",
+  "type": "module",
   "version": "1.0.0",
   "description": "Projeto criado para auxiliar as demandas de pedidos da empresa \"Madruga's Burguer\" via Whatsapp.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/leoolopes01/madrugas-burguer-whatsapp-bot/issues"
   },
-  "homepage": "https://github.com/leoolopes01/madrugas-burguer-whatsapp-bot#readme"
+  "homepage": "https://github.com/leoolopes01/madrugas-burguer-whatsapp-bot#readme",
+  "dependencies": {
+    "venom-bot": "^3.0.14"
+  }
 }
