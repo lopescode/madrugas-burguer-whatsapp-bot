@@ -25,5 +25,5 @@ export const menu = {
   },
   9: {
     description: "BEBIDAS",
-  },
+  }
 };

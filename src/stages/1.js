@@ -33,7 +33,7 @@ export const stageOne = {
 
       msg +=
         "\n----------------------------------- \
-        \n0️⃣ - ```VOLTAR AO MENU ANTERIOR``` \
+        \n0️⃣ - ```CANCELAR PEDIDO``` \
         \n\nPara visualizar o cardápio online, *acesse*: https://bigdim.com.br/wapp/madrugasburguer/store/#/delivery/loja/madrugasburguer \
         \n\n*Digite o número da categoria que você deseja pedir:*";
 

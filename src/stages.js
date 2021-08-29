@@ -2,6 +2,10 @@ import {
     initialStage,
     stageOne,
     stageTwo,
+    stageThree,
+    stageFour,
+    stageFive,
+    finalStage,
   } from "./stages/index.js";
   
   import { storage } from "./storage.js";
@@ -19,6 +23,22 @@ import {
       descricao: "MenuItens",
       stage: stageTwo,
     },
+    {
+      descricao: "Address",
+      stage: stageThree,
+    },
+    {
+      descricao: "Bill",
+      stage: stageFour,
+    },
+    {
+      descricao: 'New Order',
+      stage: stageFive,
+    },
+    {
+      descricao: 'Assistent',
+      stage: finalStage,
+    }
   ];
   
   export function getStage({ from }) {

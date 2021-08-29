@@ -26,7 +26,7 @@ export const stageTwo = {
 
       msg +=
         "\n----------------------------------- \
-        \n0️⃣ - ```VOLTAR AO MENU ANTERIOR``` ";
+        \n0️⃣ - ```CANCELAR PEDIDO``` ";
         
       storage[from].stage = 3;
 
@@ -428,9 +428,17 @@ export const stageTwo = {
         "\n----------------------------------- \
         \n0️⃣ - ```VOLTAR AO MENU ANTERIOR```"
 
-      storage[from].stage = 3;
+      storage[from].stage = 2;
 
       return msg;
+    }
+
+    // Voltar ao Menu Anterior
+    else if (message === "0") {
+      storage[from].stage = 0;
+      storage[from].itens = [];
+
+      return "🔴 Pedido *CANCELADO* com sucesso. \n\n ```Volte Sempre!```";
     }
 
     return "❌ *Digite uma opção válida, por favor.*";
